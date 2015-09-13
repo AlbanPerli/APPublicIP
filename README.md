@@ -1,8 +1,8 @@
-# APPublicIP
+## APPublicIP
 
 Get the device's current public IP Address.
 
-# One shot
+## One shot
 ```swift
 let ipChecker = APPublicIP();
 ipChecker.getCurrentIP { (ip) -> Void in
@@ -10,7 +10,7 @@ ipChecker.getCurrentIP { (ip) -> Void in
 }
 ```
 
-# Listen to any IP Address change.
+## Listen to any IP Address change.
 ```swift
 let ipChecker = APPublicIP();
 ipChecker.checkForCurrentIP({ (ip) -> Void in
@@ -18,8 +18,10 @@ ipChecker.checkForCurrentIP({ (ip) -> Void in
 }, interval: 0.5.second)
 ```
 
-# Installation 
+## Installation 
 As for now please clone the repository and drag the source folder into your project to use APPublicIP
 
 ###### This project uses https://github.com/radex/SwiftyTimer from Radek Pietruszewski
 
+## License
+APPublicIP is available under the MIT license. See the LICENSE file for more info.
