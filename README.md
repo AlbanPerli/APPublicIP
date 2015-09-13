@@ -18,4 +18,8 @@ ipChecker.checkForCurrentIP({ (ip) -> Void in
 }, interval: 0.5.second)
 ```
 
+# Installation 
+As for now please clone the repository and drag the source folder into your project to use APPublicIP
+
+###### This project uses https://github.com/radex/SwiftyTimer from Radek Pietruszewski
 
