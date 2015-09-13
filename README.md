@@ -1,6 +1,8 @@
 ## APPublicIP
 
 Get the device's current public IP Address.
+Based on https://www.ipify.org/
+(unlimited requests for free)
 
 ## One shot
 ```swift
